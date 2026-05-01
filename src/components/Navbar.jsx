@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react';
 import { Menu, X } from 'lucide-react';
 import { motion, AnimatePresence } from 'framer-motion';
+import { getAssetUrl } from '../utils/assetUrl';
 
 const navLinks = [
   { name: 'About', href: '#about' },
@@ -46,7 +47,7 @@ const Navbar = () => {
             </a>
           ))}
           <a
-            href="/bioinformatics-portfolio/Sarmad_Nawaz_CV.pdf"
+            href={getAssetUrl("/Sarmad_Nawaz_CV.pdf")}
             target="_blank"
             rel="noopener noreferrer"
             className="border border-brand-teal text-brand-teal px-4 py-1 rounded hover:bg-brand-teal/10 transition-colors text-sm font-medium ml-4"
@@ -85,7 +86,7 @@ const Navbar = () => {
                 </a>
               ))}
               <a
-                href="/bioinformatics-portfolio/Sarmad_Nawaz_CV.pdf"
+                href={getAssetUrl("/Sarmad_Nawaz_CV.pdf")}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="mt-4 border border-brand-teal text-brand-teal px-6 py-2 rounded hover:bg-brand-teal/10 transition-colors text-lg font-medium"
