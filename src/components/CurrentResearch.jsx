@@ -1,29 +1,5 @@
 import { motion } from 'framer-motion';
-import { FlaskConical, Dna, Activity } from 'lucide-react';
-
-const currentResearch = [
-  {
-    title: "TCGA-COAD Age-Stratified Multi-omics Biomarker Discovery",
-    status: "In progress — manuscript preparation",
-    statusColor: "text-brand-teal",
-    description: "Integrating RNA-seq and DNA methylation data across age-stratified TCGA-COAD cohorts to identify robust biomarkers and age-specific oncogenic pathway alterations.",
-    icon: <Activity className="w-6 h-6 text-brand-teal" />
-  },
-  {
-    title: "AKT Protein–AKT8 Docking for Antiviral Host-Signaling Inhibition",
-    status: "In progress — validation planning",
-    statusColor: "text-brand-emerald",
-    description: "Molecular docking study exploring host-signaling inhibition via AKT–AKT8 interaction as a potential antiviral strategy, with downstream wet-lab validation planned.",
-    icon: <FlaskConical className="w-6 h-6 text-brand-emerald" />
-  },
-  {
-    title: "FMDV Molecular Characterization and Host-Response Analysis",
-    status: "Ongoing research training",
-    statusColor: "text-brand-softBlue",
-    description: "Research training at NIBGE encompassing FMDV sample handling, viral RNA isolation, cDNA synthesis, PCR, and downstream transcriptomic analysis of host-response biology.",
-    icon: <Dna className="w-6 h-6 text-brand-softBlue" />
-  }
-];
+import { Dna } from 'lucide-react';
 
 const CurrentResearch = () => {
   return (
@@ -35,28 +11,43 @@ const CurrentResearch = () => {
           <div className="h-px bg-brand-lightestNavy flex-grow max-w-xs"></div>
         </div>
 
-        <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
-          {currentResearch.map((item, index) => (
-            <motion.div
-              key={index}
-              initial={{ opacity: 0, y: 20 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true, margin: "-50px" }}
-              transition={{ duration: 0.5, delay: index * 0.1 }}
-              className="glass-card p-6 rounded-xl border border-white/5 flex flex-col gap-4 hover:-translate-y-1 transition-transform duration-300"
-            >
-              <div className="flex items-start gap-3">
-                <div className="p-2 bg-brand-navy rounded-lg">{item.icon}</div>
-                <h3 className="text-base font-bold text-brand-lightestSlate leading-snug">{item.title}</h3>
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true, margin: "-50px" }}
+          transition={{ duration: 0.5 }}
+          className="glass-card p-8 md:p-10 rounded-2xl border border-brand-teal/20 relative overflow-hidden max-w-4xl"
+        >
+          {/* Decorative accent */}
+          <div className="absolute top-0 left-0 w-1.5 h-full bg-gradient-to-b from-brand-teal to-brand-emerald rounded-l-2xl"></div>
+          <div className="absolute top-0 right-0 w-40 h-40 bg-brand-teal/5 rounded-bl-full"></div>
+
+          <div className="flex flex-col md:flex-row gap-6 items-start pl-4">
+            <div className="p-3 bg-brand-navy rounded-xl flex-shrink-0">
+              <Dna className="w-8 h-8 text-brand-teal" />
+            </div>
+
+            <div className="flex-1">
+              <div className="flex flex-wrap items-center gap-3 mb-4">
+                <span className="flex items-center gap-2 text-xs font-mono uppercase tracking-widest text-brand-teal">
+                  <span className="w-2 h-2 rounded-full bg-brand-teal animate-pulse inline-block"></span>
+                  Ongoing Research
+                </span>
+                <span className="text-xs bg-brand-teal/10 text-brand-teal border border-brand-teal/20 px-3 py-0.5 rounded-full font-mono">
+                  Viral Genomics · Phytochemicals · Host-Virus Interaction
+                </span>
               </div>
-              <span className={`text-xs font-mono uppercase tracking-widest ${item.statusColor} flex items-center gap-2`}>
-                <span className="w-2 h-2 rounded-full bg-current animate-pulse inline-block"></span>
-                {item.status}
-              </span>
-              <p className="text-sm text-brand-slate leading-relaxed">{item.description}</p>
-            </motion.div>
-          ))}
-        </div>
+
+              <h3 className="text-xl md:text-2xl font-bold text-brand-lightestSlate leading-snug mb-4">
+                Meta-Transcriptomics-Guided Discovery of Host Dependency Factors and Phytochemical Antivirals Against Acute and Persistent Foot-and-Mouth Disease Virus Infection
+              </h3>
+
+              <p className="text-brand-slate leading-relaxed text-sm md:text-base">
+                Research training at the Drug Discovery and Structural Biology Lab, NIBGE, Faisalabad. Work includes FMDV sample handling, viral RNA isolation, cDNA synthesis, PCR and RT-PCR, DNA extraction, mammalian cell culture, toxicity assay setup, and BSL-2 laboratory workflows. The project aims to integrate transcriptomic and computational approaches to identify host dependency factors and evaluate phytochemical candidates as antivirals against FMDV.
+              </p>
+            </div>
+          </div>
+        </motion.div>
       </div>
     </section>
   );

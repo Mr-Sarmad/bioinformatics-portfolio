@@ -14,14 +14,14 @@ const Hero = () => {
       </div>
 
       <div className="container mx-auto px-6 md:px-12 relative z-10">
-        <div className="flex flex-col lg:flex-row items-center gap-12 lg:gap-20">
+        <div className="flex flex-col xl:flex-row items-center justify-center gap-12 xl:gap-20">
 
-          {/* Left: Profile image centered */}
+          {/* Profile image — always centered */}
           <motion.div
-            initial={{ opacity: 0, x: -30 }}
-            animate={{ opacity: 1, x: 0 }}
+            initial={{ opacity: 0, y: -20 }}
+            animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.7 }}
-            className="flex-shrink-0 flex flex-col items-center"
+            className="w-full flex flex-col items-center xl:w-auto xl:flex-shrink-0"
           >
             {/* Profile card */}
             <div className="relative">
@@ -42,7 +42,7 @@ const Hero = () => {
             <div className="mt-6 text-center">
               <h2 className="text-2xl font-bold text-brand-lightestSlate">Sarmad Nawaz</h2>
               <p className="text-brand-teal font-mono text-sm mt-1">BS Bioinformatics · GCUF</p>
-              <p className="text-brand-slate text-xs mt-1">CGPA 3.30 / 4.00</p>
+              <p className="text-brand-slate text-xs mt-1">CGPA 3.34 / 4.00</p>
             </div>
 
             {/* Metric cards */}
