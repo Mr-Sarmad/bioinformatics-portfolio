@@ -47,7 +47,7 @@ const Hero = () => {
               <a href="#projects" className="bg-brand-teal text-brand-navy px-6 py-3 rounded font-medium hover:bg-brand-emerald transition-colors">
                 View Projects
               </a>
-              <a href="/Sarmad_Nawaz_CV.pdf" target="_blank" rel="noopener noreferrer" className="border border-brand-teal text-brand-teal px-6 py-3 rounded font-medium hover:bg-brand-teal/10 transition-colors flex items-center gap-2">
+              <a href="/bioinformatics-portfolio/Sarmad_Nawaz_CV.pdf" target="_blank" rel="noopener noreferrer" className="border border-brand-teal text-brand-teal px-6 py-3 rounded font-medium hover:bg-brand-teal/10 transition-colors flex items-center gap-2">
                 <Download size={18} /> Download CV
               </a>
               <a href="https://github.com/Mr-Sarmad" target="_blank" rel="noopener noreferrer" className="text-brand-lightestSlate hover:text-brand-teal transition-colors p-3">
@@ -73,7 +73,7 @@ const Hero = () => {
               <div className="absolute inset-0 bg-brand-teal rounded-full blur-2xl opacity-20 animate-pulse"></div>
               <div className="glass-card rounded-2xl overflow-hidden relative z-10 w-full h-full p-2 border border-brand-teal/20">
                 <img 
-                  src="/images/profile.jpg" 
+                  src="/bioinformatics-portfolio/images/profile.jpg" 
                   alt="Sarmad Nawaz" 
                   className="w-full h-full object-cover rounded-xl filter grayscale hover:grayscale-0 transition-all duration-500"
                 />

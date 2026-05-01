@@ -52,7 +52,7 @@ const Contact = () => {
                   <Linkedin size={20} /> LinkedIn
                 </a>
                 <a 
-                  href="/Sarmad_Nawaz_CV.pdf" 
+                  href="/bioinformatics-portfolio/Sarmad_Nawaz_CV.pdf" 
                   target="_blank" 
                   rel="noopener noreferrer"
                   className="bg-brand-lightestNavy text-brand-emerald px-8 py-4 rounded font-bold hover:bg-brand-lightestNavy/80 border border-brand-emerald/30 transition-colors flex items-center gap-2"
