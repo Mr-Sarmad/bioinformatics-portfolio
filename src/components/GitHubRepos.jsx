@@ -8,7 +8,7 @@ const GitHubRepos = () => {
       <div className="container mx-auto px-6 md:px-12">
         <div className="flex items-center justify-center gap-4 mb-12">
           <div className="h-px bg-brand-lightestNavy w-16 md:w-32"></div>
-          <span className="text-brand-teal text-xl font-mono">05.</span>
+          <span className="text-brand-teal text-xl font-mono">06.</span>
           <h2 className="text-3xl font-bold">GitHub Repositories</h2>
           <div className="h-px bg-brand-lightestNavy w-16 md:w-32"></div>
         </div>

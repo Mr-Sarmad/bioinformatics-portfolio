@@ -1,16 +1,32 @@
-# React + Vite
+# Sarmad Nawaz | Bioinformatics Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Professional research portfolio for bioinformatics, computational biology, multi-omics, transcriptomics, molecular docking, machine learning, and wet-lab supported biological research.
 
-Currently, two official plugins are available:
+## Live Portfolio
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+https://mr-sarmad.github.io/bioinformatics-portfolio/
 
-## React Compiler
+## Main Sections
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- About
+- Research interests
+- Featured projects
+- Scientific figure gallery
+- GitHub repositories
+- Skills
+- Experience
+- Contact
 
-## Expanding the ESLint configuration
+## Featured Work
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- TCGA-COAD RNA-seq and DNA methylation multi-omics
+- Single-cell RNA-seq PBMC analysis
+- AKT protein–AKT8 docking for antiviral host-signaling inhibition
+- Wet-lab validation and cell culture experience
+- NeuroScan-AI MRI brain tumor classification
+- Cutaneous leishmaniasis transcriptomics
+- Bulk transcriptomics pipeline
+
+## Tech Stack
+
+React, Vite, Tailwind CSS, Framer Motion, Lucide React.

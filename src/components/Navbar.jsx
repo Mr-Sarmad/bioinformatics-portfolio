@@ -5,6 +5,7 @@ import { getAssetUrl } from '../utils/assetUrl';
 
 const navLinks = [
   { name: 'About', href: '#about' },
+  { name: 'Research', href: '#current-research' },
   { name: 'Projects', href: '#projects' },
   { name: 'Gallery', href: '#gallery' },
   { name: 'Skills', href: '#skills' },

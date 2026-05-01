@@ -1,6 +1,7 @@
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
 import About from './components/About';
+import CurrentResearch from './components/CurrentResearch';
 import ResearchInterests from './components/ResearchInterests';
 import Projects from './components/Projects';
 import FigureGallery from './components/FigureGallery';
@@ -17,6 +18,7 @@ function App() {
       <main>
         <Hero />
         <About />
+        <CurrentResearch />
         <ResearchInterests />
         <Projects />
         <FigureGallery />

@@ -48,7 +48,7 @@ const ResearchInterests = () => {
     <section id="research" className="py-20">
       <div className="container mx-auto px-6 md:px-12">
         <div className="flex items-center gap-4 mb-12">
-          <span className="text-brand-teal text-xl font-mono">02.</span>
+          <span className="text-brand-teal text-xl font-mono">03.</span>
           <h2 className="text-3xl font-bold">Research Interests</h2>
           <div className="h-px bg-brand-lightestNavy flex-grow max-w-xs"></div>
         </div>

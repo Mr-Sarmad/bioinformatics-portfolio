@@ -19,8 +19,8 @@ export const projects = [
   },
   {
     id: "akt-docking",
-    title: "AKT Protein–AKT8 Docking for Viral Growth Inhibition",
-    description: "Computational drug discovery project using AKT protein and AKT8 ligand to explore a host-signaling inhibition strategy for limiting viral growth. The project includes 3D protein–ligand binding pose visualization and 2D residue interaction mapping.",
+    title: "AKT Protein–AKT8 Docking for Antiviral Host-Signaling Inhibition",
+    description: "Computational docking analysis of AKT protein with AKT8 ligand to explore host-signaling inhibition as a potential strategy for limiting viral replication. The project includes 3D protein–ligand binding pose visualization and 2D residue-level interaction mapping.",
     tags: ["AKT pathway", "AKT8", "molecular docking", "antiviral hypothesis", "protein-ligand interaction"],
     image: getAssetUrl("/images/akt8_docking_3d.png"),
     category: "Docking"
@@ -36,7 +36,7 @@ export const projects = [
   {
     id: "neuroscan-ai",
     title: "NeuroScan-AI MRI Brain Tumor Classification",
-    description: "Deep learning project for MRI brain tumor classification using EfficientNet V2 Large test predictions across notumor, meningioma, glioma, and pituitary classes. Presented as an academic research poster.",
+    description: "Deep learning project for MRI brain tumor classification using EfficientNet V2 Large test predictions across No tumor, meningioma, glioma, and pituitary tumor classes. Presented as an academic research poster.",
     tags: ["Deep learning", "MRI", "EfficientNet V2", "medical AI", "classification"],
     image: getAssetUrl("/images/neuroscan_efficientnet_predictions.png"),
     category: "Deep Learning"

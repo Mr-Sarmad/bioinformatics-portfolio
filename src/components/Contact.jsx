@@ -21,7 +21,7 @@ const Contact = () => {
             <div className="absolute bottom-0 left-0 w-64 h-64 bg-brand-emerald/10 rounded-full blur-3xl translate-y-1/2 -translate-x-1/2 z-0"></div>
             
             <div className="relative z-10">
-              <span className="text-brand-teal text-xl font-mono mb-4 block">08. What's Next?</span>
+              <span className="text-brand-teal text-xl font-mono mb-4 block">09. What's Next?</span>
               <h2 className="text-3xl md:text-5xl font-bold text-white mb-6">
                 Open to research collaboration and academic opportunities.
               </h2>
